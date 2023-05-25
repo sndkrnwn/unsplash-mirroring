@@ -1,0 +1,36 @@
+.nav {
+    height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 8px -8px;
+    margin-bottom: 1rem;
+    background: var(--white-color);
+}
+
+.form_group {
+    position: relative;
+}
+
+.form_icon {
+    position: absolute;
+    font-size: 1rem;
+    top: 15px;
+    left: 15px;
+    color: #5f5f5f;
+}
+
+.form_icon:hover {
+    cursor: pointer;
+    color: #1f1f1f;
+}
+
+.search {
+    background: var(--grey-color);
+    height: 45px;
+    border-radius: var(--radius-lg);
+    padding-left: 2.25rem;
+}
+
+.search:focus {
+    background: var(--grey-color);
+    box-shadow: none;
+    border: none;
+}
