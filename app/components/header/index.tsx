@@ -25,7 +25,7 @@ export const Header = () => {
 
     const hdnClick = async() => {
         const getData: dataImageType[] = [];
-        const { results }  = await get(`${baseURL}/search/photos?page=1&query=${keyWord}${clientId}`);
+        const { results }: any  = await get(`${baseURL}/search/photos?page=1&query=${keyWord}${clientId}`);
         results.map((value: any) => {
             getData.push({
               location: value.user.location,
