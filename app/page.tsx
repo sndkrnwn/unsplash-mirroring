@@ -6,12 +6,12 @@ import Masonry from "react-masonry-css";
 import "@fortawesome/fontawesome-free/css/all.min.css"
 import styles from './page.module.css'
 //Helper
-import { get } from '../helper/fetchers';
+import { get } from './helper/fetchers';
 //Components
-import { Header } from "./../components/header"
-import { Card } from "../components/card";
+import { Header } from "./components/header"
+import { Card } from "./components/card";
 //Atom
-import { dataSearchImageAtom } from "./../helper/atom/global"
+import { dataSearchImageAtom } from "./helper/atom/global"
 
 const baseURL = "https://api.unsplash.com/photos/random?count=40&client_id=BjiEafixEfsEp95wVNrDWWcNEfou3Hvw4xV8HkSWdL0";
 
