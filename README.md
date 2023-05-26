@@ -17,5 +17,5 @@ To build this project, run the following command:
 
 ```
 cd unsplash-mirroring
-pnpm build
+npm run build
 ```
