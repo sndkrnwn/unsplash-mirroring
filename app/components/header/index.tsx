@@ -45,16 +45,14 @@ export const Header = () => {
 
                 </div>
                 <div className="col-8">
-                    <form>
-                        <div className={`form-group ${styles.form_group}`}>
-                            <i className={`fa-solid fa-magnifying-glass ${styles.form_icon}`} onClick={hdnClick}></i>
-                            <input 
-                                onChange={hdnChange}
-                                className={`form-control ${styles.search}`} 
-                                placeholder="Search" 
-                            />
-                        </div>
-                    </form>
+                    <div className={`form-group ${styles.form_group}`}>
+                        <i className={`fa-solid fa-magnifying-glass ${styles.form_icon}`} onClick={hdnClick}></i>
+                        <input 
+                            onChange={hdnChange}
+                            className={`form-control ${styles.search}`} 
+                            placeholder="Search" 
+                        />
+                    </div>
                 </div>
                 <div className="col-2">
 
