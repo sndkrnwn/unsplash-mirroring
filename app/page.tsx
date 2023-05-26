@@ -234,7 +234,7 @@ export default function Home() {
                 {
                   datafavorites.length > 0 ? datafavorites.map((item, key) => {
                       return (
-                        <div key={key} className={styles.my_masonry_asset} onClick={()=>hdnDetail(item)}>
+                        <div key={key} className={styles.my_masonry_asset}>
                             <Card 
                               title={item.location}
                               src={item.srcImage}
