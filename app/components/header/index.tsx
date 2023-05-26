@@ -45,7 +45,7 @@ export const Header = ({ hdnModalfavorites }:HeaderType) => {
     const onFormSubmit = async (e: any) => {
         e.preventDefault();
         const getData: dataImageType[] = [];
-        const { results }: any  = await get(`${baseURL}/search/photos?count=40&query=${keyWord}${clientId}`);
+        const { results }: any  = await get(`${baseURL}/search/photos?page=1&query=${keyWord}${clientId}`);
         results.map((value: any) => {
             getData.push({
               location: value.user.location,
