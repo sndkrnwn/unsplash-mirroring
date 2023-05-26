@@ -11,3 +11,5 @@ interface dataImageType {
 export const keyWordAtom = atom<string>("");
 
 export const dataSearchImageAtom = atom<dataImageType[]>([]);
+
+export const dataFavoriteImageAtom = atom<dataImageType[]>([]);

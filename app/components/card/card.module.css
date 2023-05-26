@@ -9,9 +9,17 @@
     overflow: hidden;
 }
 
+.card_image > i {
+    display: none;
+}
+
 .card_image:hover > .overlay {
     opacity: 1;
     visibility: visible;
+}
+
+.card_image:hover > i {
+    display: block;
 }
 
 .overlay {
@@ -44,17 +52,7 @@
     padding: .5rem;
 }
 
-.image {
-    width: 100%;
-}
-
 .card_detail_user {
     display: flex;
     align-items: center;
-}
-
-.card_detail_user > img {
-    width: 40px;
-    margin-right: 1rem;
-    border-radius: 50%;
 }
